@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../common/css/head.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/productList.css"/>
+		<link rel="stylesheet" href="../css/buy.css" />
+		<script src="../js/jquery-1.12.3.js"></script>
+		<script src="../js/tools.js"></script>
+		<script src="../common/js/head.js"></script>
+		<script src="../js/productList.js"></script>
+	</head>
+	<body>
+		<div id="header"></div>
+		<div id="search"></div>
+		<!--搜索框下的标题-->
+		<div id="nav">
+			<div class="nav-cont">
+				<ul>
+					<li><a href="javascript:void(0)">首页</a></li>
+					<li><a href="javascript:void(0)">生活用品</a></li>
+					<li><a href="javascript:void(0)">24H百货</a></li>
+					<li><a href="javascript:void(0)">全球购</a></li>
+					<li><a href="javascript:void(0)">精品闪购</a></li>
+					<li><a href="javascript:void(0)">电器城</a></li>
+					<li><a href="javascript:void(0)">奥莱代购</a></li>
+					<li><a href="javascript:void(0)">礼品卡</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div id="results">
+			<!--居中-->
+			<div class="results-wrap">
+				<!--全部结果-->
+				<div class="path">
+					<div class="path-left">
+						<div class="pathclip">
+							<div class="path-pa">
+								<div class="path-icon path-font">
+									<a href="javascript:void(0)">全部结果</a>
+									<div class="path-icon"></div>
+								</div>
+								<div class="path-icon searchBox">
+									<div class="path-input">
+										<input type="text" class="" placeholder="在当前条件下搜索" class="keySearchInput"/>
+										<button type="button" id="keySearch"></button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="path-right">
+						共找到 <strong>50</strong>件商品
+					</div>
+				</div>
+				<!--品牌分类-->
+				<div class="filter">
+					<div class="filter-item">
+						<div class="filter-left"><span>品牌</span></div>
+						<div class="filter-right">
+							<div class="fr-button">
+								<div class="fr-button-a fr-button-1">多选 +</div>
+							</div>
+							<div class="wid-list">
+								<div class="sx-show shshow">
+									<ul class="list-class">
+										<a href="javascript:void(0)"><img src="http://k21.iblimg.com/prd/images/brand/2016/08/xuanpinyuan.jpg"/></a>
+										<a href="javascript:void(0)"><img src="http://Img.iblimg.com/goods-16/images/brand/2016/10/maoye.jpg"/></a>
+										<a href="javascript:void(0)"><img src="http://k21.iblimg.com/prd/images/brand/2016/05/mudailan.jpg"/></a>
+										<a href="javascript:void(0)"><img src="http://k21.iblimg.com/prd/images/brand/2016/05/pannatuoni.jpg"/></a>
+										<a href="javascript:void(0)"><img src="http://k21.iblimg.com/prd/images/brand/2016/03/liangyingzi.jpg"/></a>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="filter-item">
+						<div class="filter-left"><span>进口/国产</span></div>
+						<div class="filter-right">
+							<div class="fr-button">
+								<div class="fr-button-a fr-button-1">多选 +</div>
+							</div>
+							<div class="wid-list">
+								<div class="sx-show show1">
+									<div class="filter-right-item">
+										<a href="javascript:void(0)">国产</a>
+									</div>
+									<div class="filter-right-item">
+										<a href="javascript:void(0)">进口</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="filter-item">
+						<div class="filter-left"><span>产地</span></div>
+						<div class="filter-right">
+							<div class="fr-button">
+								<div class="fr-button-a fr-button-1">多选 +</div>
+							</div>
+							<div class="wid-list">
+								<div class="sx-show show1">
+									<div class="filter-right-item">
+										<a href="javascript:void(0)">中国</a>
+									</div>
+									<div class="filter-right-item">
+										<a href="javascript:void(0)">见包装</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="filter-item">
+						<div class="filter-left"><span>面料</span></div>
+						<div class="filter-right">
+							<div class="fr-button">
+								<div class="fr-button-a fr-button-1">多选 +</div>
+							</div>
+							<div class="wid-list">
+								<div class="sx-show show1">
+									<div class="filter-right-item">
+										<a href="javascript:void(0)">其它</a>
+									</div>
+									<div class="filter-right-item">
+										<a href="javascript:void(0)">仿呢料</a>
+									</div>
+									<div class="filter-right-item">
+										<a href="javascript:void(0)">法兰绒（磨毛）</a>
+									</div>
+									<div class="filter-right-item">
+										<a href="javascript:void(0)">长毛绒</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--综合排序-->
+				<div class="sequence-left">
+					<ul class="listclass">
+						<li class="on upanddown1"><a href="javascript:void(0)">综合排序</a></li>
+						<li class="upanddown"><a href="javascript:void(0)" title="销量从高到底"><span>销量</span><i></i></a></li>
+						<li class="upanddown upanddown1"><a href="javascript:void(0)" title="价格从高到低"><span>价格</span><i></i></a></li>
+						<li class="upanddown"><a href="javascript:void(0)" title="评论从高到底"><span>评论</span><i></i></a></li>
+						<li class="upanddown"><a href="javascript:void(0)" title="新品从新到老"><span>新品</span><i></i></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="box-list">
+				<ul>
+					<!--<li>
+						<div class="proshow">
+							<div class="pro-img">
+								<a href="detail.html"><img src="http://Img.iblimg.com/photo-42/3020/1657675384_200x200.jpg"/></a>
+							</div>
+							<div class="pro-name"><a href="javascript:void(0)">大宇（DAEWOO）ODW30-MGDM2CI 3公斤 韩国原装进口壁挂式迷你大视窗滚筒婴儿洗衣机 洗烘一体</a></div>
+							<div class="pro-money">
+								<div class="money-fl">￥<span>5699.0</span><a href="javascript:void(0)" class="collect">收藏</a></div>
+							</div>
+						</div>
+					</li>-->
+				</ul>
+			</div>	
+		</div>
+		<div id="footer"></div>
+		<!--侧边栏购物车-->
+		<div id="buy"></div>
+	</body>
+	<script src="../js/buy.js"></script>
+	<script>
+		//商品列表创建json数据
+		//生成json数据		
+//		createData()
+//		function createData(){
+//			var arr = [];
+//			for (var i=0; i<98; i++) {
+//				var score = Math.random()*6+4;
+//				
+//				var obj = {
+//					id: i,
+//					name: "王牌特工： 特工学院",
+//					img: "images/" + (i+1) + ".jpg", 
+//					hot: parseInt(Math.random()*4)+6,
+//					score: score.toFixed(1),
+//					category: parseInt(Math.random()*6)+1,
+//					area: parseInt(Math.random()*6)+1
+//				}
+//				arr.push(obj);
+//			}
+////			console.log(JSON.stringify(arr));
+//		}
+	</script>
+</html>

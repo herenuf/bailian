@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>百联注册页面</title>
+		<link type="text/css" rel="stylesheet" href="../css/reset.css"/>
+		<link type="text/css" rel="stylesheet" href="../css/register.css"/>
+		<script src="../js/jquery-1.12.3.js"></script>
+		<script src="../js/register.js"></script>
+	</head>
+	<body> 
+		<div id="top-wrapper">
+			<div class="top">
+				<div class="logo">
+					<a href="javascript:void(0)"><img src="../img/images/logon-logo.png" /></a>
+				</div>
+				<div class="reg">
+					<a href="../register/02_register.html">用户注册</a>
+				</div>
+			</div>
+		</div>
+		<div id="tab-wrapper">
+			<div class="tab">
+				<div class="tab-top">
+					<div class="tab-top-left">
+						<a href="javascript:void(0)">您好,感谢你加入i百联</a>
+					</div>
+					<div class="tab-top-right">
+						如有账号，请点击    <a href="login.html">登录</a>
+					</div>
+				</div>
+				<div class="tab-center">
+					<div class="tab-data">
+						<div class="name"><i>*</i>用户名：</div>
+						<div class="input">
+							<input type="text" class="index1" id="loginId" name="loginId"  placeholder="6-20位字符，支持字母或字母与数字组合"/>
+						</div>
+						<ul class="prompt">
+							<li class="prompt-text1" style="display: none;">
+								<i><img src="../img/images/v-icon-1.png"></img>
+								<span>请输入用户名</span>
+							</li>
+							<li class="prompt-error1" style="display: none;">
+								<i><img src="../img/images/v-icon-2.png"></img>
+								<span>用户名长度只能在6-20位字符之间</span>
+							</li>
+							<li class="prompt-corr1" style="display: none;">
+								<i><img src="../img/images/v-icon-3.png"></img>
+								<span></span>
+							</li>
+						</ul>
+					</div>
+					<div class="tab-data">
+						<div class="name"><i>*</i>登录密码：</div>
+						<div class="input">
+							<input type="password" class="index2" id="loginPwd" name="uPwd"  placeholder="8-20位字符，至少使用两种字符组合"/>
+						</div>
+						<ul class="prompt">
+							<li class="prompt-text2" style="display: none;">
+								<i><img src="../img/images/v-icon-1.png"></img>
+								<span>请输入登录密码</span>
+							</li>
+							<li class="prompt-error2" style="display: none;">
+								<i><img src="../img/images/v-icon-2.png"></img>
+								<span>8-20位字符，至少使用两种字符组合</span>
+							</li>
+							<li class="prompt-corr2" style="display: none;">
+								<i><img src="../img/images/v-icon-3.png"></img>
+								<span></span>
+							</li>
+						</ul>
+					</div>
+					<div class="tab-data">
+						<div class="name"><i>*</i>确认密码：</div>
+						<div class="input">
+							<input type="password" class="index2" id="loginPwd1" name="loginPwd1"  placeholder="请再次输入密码"/>
+						</div>
+						<ul class="prompt">
+							<li class="prompt-text3" style="display: none;">
+								<i><img src="../img/images/v-icon-1.png"></img>
+								<span>请输入确认密码</span>
+							</li>
+							<li class="prompt-error3" style="display: none;">
+								<i><img src="../img/images/v-icon-2.png"></img>
+								<span>确认密码与登录密码不一致</span>
+							</li>
+							<li class="prompt-corr3" style="display: none;">
+								<i><img src="../img/images/v-icon-3.png"></img>
+								<span></span>
+							</li>
+						</ul>
+					</div>
+					<div class="tab-data">
+						<div class="name"><i>*</i>手机号：</div>
+						<div class="input">
+							<input type="text"  class="index3" id="loginTel" name="uTel"  placeholder="请输入11位手机号"/>
+						</div>
+						<ul class="prompt">
+							<li class="prompt-text4" style="display: none;">
+								<i><img src="../img/images/v-icon-1.png"></img>
+								<span>请输入手机号</span>
+							</li>
+							<li class="prompt-error4" style="display: none;">
+								<i><img src="../img/images/v-icon-2.png"></img>
+								<span>请输入正确手机号</span>
+							</li>
+							<li class="prompt-corr4" style="display: none;">
+								<i><img src="../img/images/v-icon-3.png"></img>
+								<span></span>
+							</li>
+						</ul>
+					</div>
+					
+					<div class="tab-data">
+						<div class="name"><i>*</i>验证码：</div>
+						<div class="input" id="loginQrbox">
+							<input type="text" class="index2" id="loginQr" name="loginQr"  placeholder="请输入验证码"/>
+							<input  id="qr" type="button" value="3Qyu" />
+						</div>
+						<ul class="prompt">
+							<li class="prompt-text5" style="display: none;">
+								<i><img src="../img/images/v-icon-1.png"></img>
+								<span>请输入验证码</span>
+							</li>
+							<li class="prompt-error5" style="display: none;">
+								<i><img src="../img/images/v-icon-2.png"></img>
+								<span></span>
+							</li>
+							<li class="prompt-corr5" style="display: none;">
+								<i><img src="../img/images/v-icon-3.png"></img>
+								<span></span>
+							</li>
+						</ul>
+					</div>
+					<div class="tab-data">
+						<div class="name">电子邮箱：</div>
+						<div class="input">
+							<input type="text"  class="index4" id="loginEmail" name="uEmail"  placeholder="请输入有效邮箱"/>
+						</div>
+						<ul class="prompt">
+							<li class="prompt-text6" style="display: none;">
+								<i><img src="../img/images/v-icon-1.png"></img>
+								<span>请输入电子邮箱</span>
+							</li>
+							<li class="prompt-error6" style="display: none;">
+								<i><img src="../img/images/v-icon-2.png"></img>
+								<span>请输入正确的电子邮箱</span>
+							</li>
+							<li class="prompt-corr6" style="display: none;">
+								<i><img src="../img/images/v-icon-3.png"></img>
+								<span></span>
+							</li>
+						</ul> 
+					</div>
+					<div class="tab-ckb">
+							<input type="checkbox" class="loginCkb"  id="loginCkb" name="loginCkb"/><span>我已阅读并同意</span>
+							<a href="javascript:void(0)">《百联通会员注册协议》</a>
+					</div>
+					<button id="btn" type="button">立即注册      完成绑定</button>
+			
+				</div>
+			</div> 
+		</div>
+		<div class="footer">
+			<div class="sub-menu">
+				<a href="#">关于我们</a>
+				<a href="#">联系我们</a>
+				<a href="#">加盟合作</a>
+				<a href="#">诚征英才</a>
+				<a href="#">友情链接</a>
+			</div>
+			<p class="first">百联集团有限公司旗下 上海百联全渠道电子商务有限公司版权所有 | 客服电话：400-900-8800 | 沪ICP备15028847号</p>
+			<p>联系地址：上海市普陀区真光路1258号百联中环广场6楼 | 联系电话：021-52629933 | 咨询热线：400-900-8800</p>
+			<p>本企业已通过ISO9001:2000 质量管理体系标准认证 | 认证注册号：04206Q10079ROM | 认可注册号：CNAB042-Q | 增值电信业务经营许可证：沪B2-20100062</p>
+		</div>
+	</body>
+</html>

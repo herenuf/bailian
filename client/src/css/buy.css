@@ -1,0 +1,332 @@
+
+#buy{
+	width: 314px;
+    position: fixed;
+    height: 100%;
+    top: 0;
+    right: -276px;
+    background-color: #fff;
+    z-index: 9999999999999;
+    /*display: none;*/
+}
+.right-slidebar-main {
+    width: 38px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #333;
+    z-index: 999999;
+    height: 100%;
+    display: block;
+}
+.sidecss {
+    height: 40px;
+    font-size: 12px;
+    width: 38px;
+    background: #333;
+    text-align: center;
+    margin: 2px 0;
+    line-height: 40px;
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+}
+.mui-mbar-tab-normal-arr {
+    position: absolute;
+    top: 14px;
+    right: 0;
+    display: none;
+    width: 6px;
+    height: 12px;
+    background: url(//img.iblimg.com/respc-1/resources/v4.2/widget/sidebar/i/sidebar_in.png) no-repeat 0 -108px;
+    border: 0;
+}
+.mui-mbar-tab {
+    position: relative;
+    z-index: 999;
+    top: 15px;
+}
+.mui-mbar-tab-tip,.mui-mbar-tab-tip1 {
+    opacity: 1;
+    display: none;
+    position: absolute;
+    width: 0;
+    line-height: 40px;
+    right: 38px;
+    top: -17px;
+    border: 1px solid #DDD;
+    color: #000;
+    background-color: #FFF;
+    overflow: hidden;
+    cursor: default;
+    border-top-left-radius: 8%;
+    border-bottom-left-radius: 8%;
+}
+.mui-mbar-tab-tip .tip_con {
+    width: 86px;
+    font-size: 14px;
+    color: #333;
+    font-family: 'Microsoft YaHei';
+}
+.code_title {
+    background: transparent url(//img.iblimg.com/respc-1/resources/v4.2/widget/sidebar/i/code_title.png) no-repeat left center;
+    width: 82px;
+    line-height: 28px;
+    margin: 18px auto 0;
+    padding-left: 12px;
+}
+.mui-mbar-tab-tip img {
+    width: 100px;
+    height: 100px;
+}
+.mui-mbar-tab-tip-arr{
+    position: absolute;
+    top: 15px;
+    right: -6px;
+    width: 6px;
+    height: 12px;
+    background: url(//img.iblimg.com/respc-1/resources/v4.2/widget/sidebar/i/sidebar_in.png) no-repeat -6px -108px;
+}
+.buy-login {
+    font-size: 12px;
+    position: absolute;
+    top: 100px;
+    z-index: 99;
+    top: 126.5px;
+}
+.buy-login i {
+    background: url(//img.iblimg.com/respc-1/resources/v4.2/widget/sidebar/i/sidebar_out.png) no-repeat 0 0;
+}
+.buy-login:hover .mui-mbar-tab-tip{
+	display: block;
+}
+.sidecss i {
+    width: 38px;
+    height: 40px;
+    float: left;
+    display: inline;
+}
+
+.shopcar{
+    border-top: 1px solid #666;
+    border-bottom: 1px solid #666;
+    height: 174px;
+    position: absolute;
+    top: 172px;
+    width: 43px !important;
+    right: 0;
+    z-index: 99999;
+    background-color: #333;
+    font-family: 'Microsoft YaHei';
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+}
+.shopcar:hover{
+	/*background: #e6133c;*/
+}
+.mui-mbar-tab-cart-arr {
+    position: absolute;
+    top: 82px;
+    right: 0;
+    z-index: 999990;
+    width: 6px;
+    height: 12px;
+    display: block;
+    background: url(//img.iblimg.com/respc-1/resources/v4.2/widget/sidebar/i/sidebar_in.png) no-repeat 0 -108px;
+}
+.shopcar span {
+    margin-top: 10px;
+    line-height: 15px;
+    display: block;
+    font-size: 14px;
+}
+.shopcar b {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #e6133c;
+    text-align: center;
+    display: block;
+    line-height: 18px;
+    color: #FFF;
+    margin-top: 10px;
+    margin-right: 2px;
+}
+.cartbar_co {
+    width: 43px;
+    height: 5px;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    background: url(//img.iblimg.com/respc-1/resources/v4.2/widget/sidebar/i/sidebar_out.png) no-repeat 0 -360px;
+}
+.shopcar i {
+    width: 24px;
+    height: 18px;
+    margin-top: 36px;
+    background: url(//img.iblimg.com/respc-1/resources/v4.2/widget/sidebar/i/sidebar_out.png) no-repeat 0 -365px;
+    display: inline-block;
+}
+.ca-imgs{
+	position: absolute;
+    bottom: -5px;
+    left: 0px;
+}
+.right-slidebar-main >div:hover {
+    background-color: #e6133c;
+    cursor: pointer;
+}
+.collection {
+    position: absolute;
+    top: 358.5px;
+    z-index: 98;
+}
+.collection i {
+    background: url(//img.iblimg.com/respc-1/resources/v4.2/widget/sidebar/i/sidebar_out.png) no-repeat 0 -40px;
+}
+.mui-mbar-tab {
+    position: relative;
+    z-index: 999;
+    top: 15px;
+}
+.history {
+    position: absolute;
+    top: 400.5px;
+    z-index: 97;
+}
+.history i {
+    background: url(//img.iblimg.com/respc-1/resources/v4.2/widget/sidebar/i/sidebar_out.png) no-repeat 0 -80px;
+}
+.qrcode{
+	top: 596px;
+	position: absolute;
+}
+.qrcode i {
+    background: url(//img.iblimg.com/respc-1/resources/v4.2/widget/sidebar/i/sidebar_out.png) no-repeat 0 -200px;
+}
+.ico_dd {
+    width: 31px;
+    height: 50px;
+    position: absolute;
+    left: -25px;
+    top: 0;
+    background: url(//img.iblimg.com/respc-1/resources/v4.2/widget/sidebar/i/ico_dd.png) 0 0 no-repeat;
+    z-index: 999;
+    cursor: default;
+}
+.service {
+    position: absolute;
+    top: 638px;
+}
+.service i {
+    background: url(//img.iblimg.com/respc-1/resources/v4.2/widget/sidebar/i/sidebar_out.png) no-repeat 0 -240px;
+}
+
+.cur{
+	background: url(//img.iblimg.com/respc-1/resources/v4.2/widget/sidebar/i/ico_dd2.png) no-repeat 0 0;
+	left: -31px;
+	/*top: -115px;*/
+}
+
+.totop {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 38px;
+    height: 40px;
+    text-align: center;
+    background: #333;
+    line-height: 40px;
+    display: none;
+    top: 680px;
+    display: block;
+}
+.totop i {
+    background: url(//img.iblimg.com/respc-1/resources/v4.2/widget/sidebar/i/sidebar_out.png) no-repeat 0 -320px;
+}
+
+.totop .mui-mbar-tab {
+    top: 15px;
+}
+.totop .iconfont {
+    font-size: 18px;
+}
+#msg{
+	width: 0px;
+	height: 40px;
+	line-height: 40px;
+	border: 1px solid #DDDDDD;
+	background: red;
+	position: absolute;
+	left: -81px;
+	top: -17px;
+	display: none;
+	color: #fff;
+	border-radius: 5px 0px 0 5px;
+}
+
+.right-slidebar-detail {
+    height: inherit;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #f2f2f2;
+    width: 276px;
+}
+.login-detail-h {
+    height: 44px;
+    background: #f2f2f2;
+    line-height: 44px;
+}
+i.sidebar-closed {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(//img.iblimg.com/respc-1/resources/v4.2/widget/sidebar/i/sidebar_in.png) no-repeat 0 -44px;
+    height: 16px;
+    line-height: 16px;
+    font-size: 16px;
+    font-family: iconfont;
+    width: 16px;
+    margin: 14px 0 0 18px;
+    cursor: pointer;
+    color: #999;
+}
+.ri-sl-one{
+	width: 276px;
+	height: 100%;
+	background: red;
+	display: none;position: absolute;
+}
+.ri-sl-two{
+	width: 276px;
+	height: 100%;
+	background: pink;
+	display: none;position: absolute;
+}
+.ri-sl-three{
+	display: none;
+	width: 276px;
+	height: 100%;
+	background: greenyellow;position: absolute;
+}
+.ri-sl-four{
+	display: none;
+	width: 276px;
+	height: 100%;
+	background: orange;
+	position: absolute;position: absolute;
+}
+.right-slidebar-detail .font{
+	font-size: 50px;
+    line-height: 100px;
+    width: 50px;
+    text-align: center;
+    height: 500px;
+    margin: 0 auto;
+    color: #fff;
+}

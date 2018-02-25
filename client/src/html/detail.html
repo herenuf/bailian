@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<!--<link rel="stylesheet" href="../css/buy.css" />-->
+		<link rel="stylesheet" href="../common/css/head.css" />
+		<link rel="stylesheet" type="text/css" href="../css/jquery.spinner.css"/>
+		<link rel="stylesheet" href="../css/detail.css" />
+		<link rel="stylesheet" href="../css/bootstrap.css" />
+		<link rel="stylesheet" href="../css/city-picker.css" />
+		<link rel="stylesheet" type="text/css" href="../css/main.css"/>
+		<script src="../js/jquery-1.12.3.js"></script>
+		<script src="../js/jquery.cookie.js"></script>
+		<script src="../js/tools.js"></script>
+		<!--<script src="../js/buy.js"></script>-->
+		<script src="../js/bootstrap.js"></script>
+		<script src="../js/city-picker.data.js"></script>
+		<script src="../js/city-picker.js"></script>
+		<script src="../js/main.js"></script>
+		<script src="../common/js/head.js"></script>
+		<script src="../js/jquery.spinner.js"></script>
+		<script type="text/javascript" src="../js/detail.js" ></script>
+	</head>
+	<body>
+		<div id="header">
+					
+		</div>
+		
+		<div id="search">
+			
+		</div>
+		<!--搜索框下的标题-->
+		<div id="nav">
+			<div class="nav-cont">
+				<ul>
+					<li><a href="javascript:void(0)">首页</a></li>
+					<li><a href="javascript:void(0)">生活用品</a></li>
+					<li><a href="javascript:void(0)">24H百货</a></li>
+					<li><a href="javascript:void(0)">全球购</a></li>
+					<li><a href="javascript:void(0)">精品闪购</a></li>
+					<li><a href="javascript:void(0)">电器城</a></li>
+					<li><a href="javascript:void(0)">奥莱代购</a></li>
+					<li><a href="javascript:void(0)">礼品卡</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div id="classify">
+			<div class="classify-title">
+				<ul>
+					<li><a href="javascript:void(0)">精品服装</a><span>></span></li>
+					<li><a href="javascript:void(0)">女装</a><span>></span></li>
+					<li><a href="javascript:void(0)">女士上装</a><span>></span></li>
+					<li><a href="javascript:void(0)">女士毛呢大衣</a><span>></span></li>
+					<li><a href="javascript:void(0)">慕黛兰(MOUDAINER)</a></li>
+				</ul>
+				<ul>
+					<li><a href="javascript:void(0)">慕黛兰专营店</a><span>></span></li>
+					<li><a href="javascript:void(0)" class="boxImg"><img src="http://k21.iblimg.com/prd/images/brand/2016/05/mudailan.jpg"/></a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<!--购物车-->
+		<div id="buy1">
+			<div class="buy-cont">
+				<div class="buy-top">
+					<!--左边-->
+					<div class="buy-left">
+						<!--<div class="buy-left-one">
+							<div class="midImg"><img src="http://img16.iblimg.com/mp-175/mp/goods/1716953824_360x360.jpg"/></div>
+						</div>
+						<div class="buy-left-two">
+							<a href="javascript:void(0)" class="prev"></a>
+							<a href="javascript:void(0)" class="next"></a>
+							<div class="items">
+								<ul>
+									<li><img src="http://img16.iblimg.com/mp-175/mp/goods/1716953824_360x360.jpg"/></li>
+									<li><img src="http://img16.iblimg.com/mp-175/mp/goods/1502970004_360x360.jpg"/></li>
+									<li><img src="http://img16.iblimg.com/mp-175/mp/goods/41363650_360x360.jpg"/></li>
+									<li><img src="http://img20.iblimg.com/mp-175/mp/goods/1928714437_360x360.jpg"/></li>
+									<li><img src="http://img18.iblimg.com/mp-175/mp/goods/693903638_360x360.jpg"/></li>
+								</ul>
+							</div>
+						</div>-->
+						<div id="magnifier">
+						    <!--<div class="small-box">
+						      <img src="../img/images/small_1.jpg" alt="#">
+						      <span class="hover-er"></span>
+						    </div>
+						    <div class="thumbnail-box">
+							    <a href="javascript:;" class="btn btn-prev"></a>
+							    <a href="javascript:;" class="btn btn-next"></a>
+							    <div class="list">
+							        <ul class="wrapper">
+							            <li class="item item-cur" data-src="../img/images/small_1.jpg"><img src="../img/images/thumbnail_1.jpg" alt="#"></li>
+							            <li class="item" data-src="../img/images/small_2.jpg"><img src="../img/images/thumbnail_2.jpg" alt="#"></li>
+							            <li class="item" data-src="../img/images/small_3.jpg"><img src="../img/images/thumbnail_3.jpg" alt="#"></li>
+							            <li class="item" data-src="../img/images/small_4.jpg"><img src="../img/images/thumbnail_4.jpg" alt="#"></li>
+							            <li class="item" data-src="../img/images/small_5.jpg"><img src="../img/images/thumbnail_5.jpg" alt="#"></li>
+							            <li class="item" data-src="../img/images/small_6.jpg"><img src="../img/images/thumbnail_6.jpg" alt="#"></li>
+							        </ul>
+							    </div>
+						    </div>
+						    <div class="big-box">
+						      <img data-src="../img/images/small_1.jpg" src="../img/images/big_1.jpg" alt="#">
+						    </div>-->
+						</div>
+
+						
+						
+						<!--分享-->
+						<div class="buy-left-three">
+							<div class="share-list">
+								<a href="javascript:void(0)" class="shar-list-icon">分享</a>
+								<i class="up"></i>
+							</div>
+							<div class="number">
+								商品编号
+								<span>4000587328</span>
+							</div>
+						</div>
+					</div>
+					<!--右边-->
+					<div class="buy-right">
+						<div class="goods-name">
+							<h1>慕黛兰 羊羔绒毛呢外套女秋冬新款韩版大码宽松双排扣呢子大衣中长款 灰色 XL</h1>
+							<div class="title">大厂工艺 韩版气质外套 好四季女装-2100-9721</div>
+						</div>
+						<div class="goods-price clearfix">
+							<div class="price-line">
+								<!--<span class="black">销售价</span>
+								<span class="price">
+									<strong><i>￥</i>316.00</strong>
+								</span>-->
+							</div>
+						</div>
+						<!--配送-->
+						<div class="main-height">
+							<div class="send-service">
+								<dl>
+									<dt class="black se-left">配送</dt>
+									<dd>
+										<!--城市三级联动-->
+										<div class="docs-methods">
+											<form class="form-inline">
+												<div id="distpicker">
+													<div class="form-group">
+														<div style="position: relative;">
+															<input id="city-picker3" class="form-control" readonly type="text" value="广东省/深圳市/宝安区" data-toggle="city-picker">
+														</div>
+													</div>
+												</div>
+											</form>
+										</div>
+									</dd>
+								</dl>
+							</div>
+						</div>
+						<!--服务-->
+						<div class="service">
+							<dl>
+								<dt>服务</dt>
+								<dd>
+									<div class="message-line">
+										由"慕黛兰专营店" 提供发货和售后服务
+									</div>
+									<div class="frozen-line"></div>
+									<ul class="service-line">
+										<li>不支持到店自提</li>
+										<li class="service-on"><a href="javascript:void(0)">支持7天无理由退货</a></li>
+										<li>不支持货到付款</li>
+									</ul>
+								</dd>
+							</dl>
+						</div>
+						<!--颜色 尺码-->
+						<div class="choose-type">
+							<div class="type-table">
+								<dl>
+									<dt><span>颜色</span></dt>
+									<dd>
+										<ul class="color-list">
+											<li class="select">驼色</li>
+											<li>米白色</li>
+											<li>灰色</li>
+										</ul>
+									</dd>
+								</dl>
+								<dl>
+									<dt><span>尺码</span></dt>
+									<dd>
+										<ul class="color-list">
+											<li class="select">M</li>
+											<li>L</li>
+											<li>2XL</li>
+											<li>XL</li>
+										</ul>
+									</dd>
+								</dl>
+							</div>
+						</div>
+						<dl class="buy-num">
+							<dt>购买数量</dt>
+							<dd>
+								<input type="text" class="spinnerExample"/> 
+							</dd>
+						</dl>
+						<dl class="buy-cart">
+							<dt></dt>
+							<dd>
+								<div class="btn-line">
+									<button class="buy-now" type="button">立即购买</button>
+									<button class="btn-now" type="button">加入购物车</button>
+									<a href="javascript:void(0)" class="collect1">收藏</a>
+								</div>
+							</dd>
+						</dl>
+					</div>
+				</div>
+				<!--购买此商品的顾客也会购买-->
+				<div class="buy-head">
+					<h2>购买此商品的顾客也会购买</h2>
+					<span class="currer">
+						<a href="javascript:void(0)" class="prev last"><</a>
+						<span class="emptionNum" style="float: left;">
+							<i>1</i>
+							/2
+						</span>
+						<a href="javascript:void(0)" class="next">></a>
+					</span>
+					<div class="emption-box">
+						<ul class="emption-scroll">
+							<a href="javascript:void(0)" title="慕黛兰 冬季情侣装棉服韩版宽松连帽棉衣男女加厚外套 黑色 M">
+								<li>
+									<span class="picture"><img src="http://img19.iblimg.com/mp-175/mp/goods/197525825_200x200.jpg"/></span>
+									<span class="name">慕黛兰 冬季情侣装棉服韩版宽松连帽棉衣男女加厚外套 黑色 M</span>
+									<span class="price">
+										￥
+										<i>219.0</i>
+									</span>
+								</li>
+							</a>
+							<a href="javascript:void(0)" title="慕黛兰 冬季情侣装棉服韩版宽松连帽棉衣男女加厚外套 黑色 M">
+								<li>
+									<span class="picture"><img src="http://img19.iblimg.com/mp-175/mp/goods/902697681_200x200.jpg"/></span>
+									<span class="name">慕黛兰 冬季情侣装棉服韩版宽松连帽棉衣男女加厚外套 黑色 M</span>
+									<span class="price">
+										￥
+										<i>219.0</i>
+									</span>
+								</li>
+							</a>
+							<a href="javascript:void(0)" title="慕黛兰 冬季情侣装棉服韩版宽松连帽棉衣男女加厚外套 黑色 M">
+								<li>
+									<span class="picture"><img src="http://img19.iblimg.com/mp-175/mp/goods/984966713_200x200.jpg"/></span>
+									<span class="name">慕黛兰 冬季情侣装棉服韩版宽松连帽棉衣男女加厚外套 黑色 M</span>
+									<span class="price">
+										￥
+										<i>219.0</i>
+									</span>
+								</li>
+							</a>
+							<a href="javascript:void(0)" title="慕黛兰 冬季情侣装棉服韩版宽松连帽棉衣男女加厚外套 黑色 M">
+								<li>
+									<span class="picture"><img src="http://img17.iblimg.com/mp-175/mp/goods/1097343096_200x200.jpg"/></span>
+									<span class="name">慕黛兰 冬季情侣装棉服韩版宽松连帽棉衣男女加厚外套 黑色 M</span>
+									<span class="price">
+										￥
+										<i>219.0</i>
+									</span>
+								</li>
+							</a>
+							<a href="javascript:void(0)" title="慕黛兰 冬季情侣装棉服韩版宽松连帽棉衣男女加厚外套 黑色 M">
+								<li>
+									<span class="picture"><img src="http://img17.iblimg.com/mp-175/mp/goods/443658454_200x200.jpg"/></span>
+									<span class="name">慕黛兰 冬季情侣装棉服韩版宽松连帽棉衣男女加厚外套 黑色 M</span>
+									<span class="price">
+										￥
+										<i>219.0</i>
+									</span>
+								</li>
+							</a>
+							<a href="javascript:void(0)" title="慕黛兰 冬季情侣装棉服韩版宽松连帽棉衣男女加厚外套 黑色 M">
+								<li>
+									<span class="picture"><img src="http://img19.iblimg.com/mp-175/mp/goods/197525825_200x200.jpg"/></span>
+									<span class="name">慕黛兰 冬季情侣装棉服韩版宽松连帽棉衣男女加厚外套 黑色 M</span>
+									<span class="price">
+										￥
+										<i>219.0</i>
+									</span>
+								</li>
+							</a>
+							<a href="javascript:void(0)" title="慕黛兰 冬季情侣装棉服韩版宽松连帽棉衣男女加厚外套 黑色 M">
+								<li>
+									<span class="picture"><img src="http://img19.iblimg.com/mp-175/mp/goods/902697681_200x200.jpg"/></span>
+									<span class="name">慕黛兰 冬季情侣装棉服韩版宽松连帽棉衣男女加厚外套 黑色 M</span>
+									<span class="price">
+										￥
+										<i>219.0</i>
+									</span>
+								</li>
+							</a>
+							<a href="javascript:void(0)" title="慕黛兰 冬季情侣装棉服韩版宽松连帽棉衣男女加厚外套 黑色 M">
+								<li>
+									<span class="picture"><img src="http://img19.iblimg.com/mp-175/mp/goods/984966713_200x200.jpg"/></span>
+									<span class="name">慕黛兰 冬季情侣装棉服韩版宽松连帽棉衣男女加厚外套 黑色 M</span>
+									<span class="price">
+										￥
+										<i>219.0</i>
+									</span>
+								</li>
+							</a>
+							<a href="javascript:void(0)" title="慕黛兰 冬季情侣装棉服韩版宽松连帽棉衣男女加厚外套 黑色 M">
+								<li>
+									<span class="picture"><img src="http://img17.iblimg.com/mp-175/mp/goods/1097343096_200x200.jpg"/></span>
+									<span class="name">慕黛兰 冬季情侣装棉服韩版宽松连帽棉衣男女加厚外套 黑色 M</span>
+									<span class="price">
+										￥
+										<i>219.0</i>
+									</span>
+								</li>
+							</a>
+							<a href="javascript:void(0)" title="慕黛兰 冬季情侣装棉服韩版宽松连帽棉衣男女加厚外套 黑色 M">
+								<li>
+									<span class="picture"><img src="http://img17.iblimg.com/mp-175/mp/goods/443658454_200x200.jpg"/></span>
+									<span class="name">慕黛兰 冬季情侣装棉服韩版宽松连帽棉衣男女加厚外套 黑色 M</span>
+									<span class="price">
+										￥
+										<i>219.0</i>
+									</span>
+								</li>
+							</a>
+						</ul>
+					</div>
+				</div>
+				
+				<!--慕黛兰专营店-->
+				<div class="product-table">
+					<div class="product-left">
+						<div class="list-detail-mp">
+							<div class="mp-title">慕黛兰专营店</div>
+							<div class="mp-list">
+								<a href="javascript:void(0)" class="service-icon">
+									<i></i>
+									 联系客服
+								</a>
+								<a href="javascript:void(0)" class="enter">进入店铺</a>
+								<a href="javascript:void(0)" class="collect">收藏店铺</a>
+							</div>
+						</div>
+						<!--大家都在买-->
+						<div class="list-main-unit">
+							<div class="unit">
+								<div class="unit-title">大家都在买</div>
+								<ul>
+									<li>
+										<div class="pro-show">
+											<div class="pro-img">
+												<a href="javascript:void(0)" title="慕黛兰 羊羔绒毛呢外套女秋冬新款韩版大码宽松双排扣呢子大衣中长款 灰色 M"><img src="http://img16.iblimg.com/mp-175/mp/goods/1716953824_200x200.jpg"/></a>
+											</div>
+											<div class="pro-name">
+												<a href="javascript:void()">慕黛兰 羊羔绒毛呢外套女秋冬新款韩版大码宽松双排扣呢子大衣中长款 灰色 M</a>
+											</div>
+											<div class="pro-money">
+												￥
+												<i>316.0</i>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="pro-show">
+											<div class="pro-img">
+												<a href="javascript:void(0)" title="慕黛兰 羊羔绒毛呢外套女秋冬新款韩版大码宽松双排扣呢子大衣中长款 灰色 M"><img src="http://img16.iblimg.com/mp-175/mp/goods/1716953824_200x200.jpg"/></a>
+											</div>
+											<div class="pro-name">
+												<a href="javascript:void()">慕黛兰 羊羔绒毛呢外套女秋冬新款韩版大码宽松双排扣呢子大衣中长款 灰色 M</a>
+											</div>
+											<div class="pro-money">
+												￥
+												<i>316.0</i>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="pro-show">
+											<div class="pro-img">
+												<a href="javascript:void(0)" title="慕黛兰 羊羔绒毛呢外套女秋冬新款韩版大码宽松双排扣呢子大衣中长款 灰色 M"><img src="http://img16.iblimg.com/mp-175/mp/goods/1716953824_200x200.jpg"/></a>
+											</div>
+											<div class="pro-name">
+												<a href="javascript:void()">慕黛兰 羊羔绒毛呢外套女秋冬新款韩版大码宽松双排扣呢子大衣中长款 灰色 M</a>
+											</div>
+											<div class="pro-money">
+												￥
+												<i>316.0</i>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="pro-show">
+											<div class="pro-img">
+												<a href="javascript:void(0)" title="慕黛兰 羊羔绒毛呢外套女秋冬新款韩版大码宽松双排扣呢子大衣中长款 灰色 M"><img src="http://img16.iblimg.com/mp-175/mp/goods/1716953824_200x200.jpg"/></a>
+											</div>
+											<div class="pro-name">
+												<a href="javascript:void()">慕黛兰 羊羔绒毛呢外套女秋冬新款韩版大码宽松双排扣呢子大衣中长款 灰色 M</a>
+											</div>
+											<div class="pro-money">
+												￥
+												<i>316.0</i>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="pro-show">
+											<div class="pro-img">
+												<a href="javascript:void(0)" title="慕黛兰 羊羔绒毛呢外套女秋冬新款韩版大码宽松双排扣呢子大衣中长款 灰色 M"><img src="http://img16.iblimg.com/mp-175/mp/goods/1716953824_200x200.jpg"/></a>
+											</div>
+											<div class="pro-name">
+												<a href="javascript:void()">慕黛兰 羊羔绒毛呢外套女秋冬新款韩版大码宽松双排扣呢子大衣中长款 灰色 M</a>
+											</div>
+											<div class="pro-money">
+												￥
+												<i>316.0</i>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<!--看了又看-->
+						<div class="list-main-unit">
+							<div class="unit">
+								<div class="unit-title">看了又看</div>
+								<ul>
+									<li>
+										<div class="pro-show">
+											<div class="pro-img">
+												<a href="javascript:void(0)" title="慕黛兰 羊羔绒毛呢外套女秋冬新款韩版大码宽松双排扣呢子大衣中长款 灰色 M"><img src="http://img16.iblimg.com/mp-175/mp/goods/1716953824_200x200.jpg"/></a>
+											</div>
+											<div class="pro-name">
+												<a href="javascript:void()">慕黛兰 羊羔绒毛呢外套女秋冬新款韩版大码宽松双排扣呢子大衣中长款 灰色 M</a>
+											</div>
+											<div class="pro-money">
+												￥
+												<i>316.0</i>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="pro-show">
+											<div class="pro-img">
+												<a href="javascript:void(0)" title="慕黛兰 羊羔绒毛呢外套女秋冬新款韩版大码宽松双排扣呢子大衣中长款 灰色 M"><img src="http://img16.iblimg.com/mp-175/mp/goods/1716953824_200x200.jpg"/></a>
+											</div>
+											<div class="pro-name">
+												<a href="javascript:void()">慕黛兰 羊羔绒毛呢外套女秋冬新款韩版大码宽松双排扣呢子大衣中长款 灰色 M</a>
+											</div>
+											<div class="pro-money">
+												￥
+												<i>316.0</i>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="pro-show">
+											<div class="pro-img">
+												<a href="javascript:void(0)" title="慕黛兰 羊羔绒毛呢外套女秋冬新款韩版大码宽松双排扣呢子大衣中长款 灰色 M"><img src="http://img16.iblimg.com/mp-175/mp/goods/1716953824_200x200.jpg"/></a>
+											</div>
+											<div class="pro-name">
+												<a href="javascript:void()">慕黛兰 羊羔绒毛呢外套女秋冬新款韩版大码宽松双排扣呢子大衣中长款 灰色 M</a>
+											</div>
+											<div class="pro-money">
+												￥
+												<i>316.0</i>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="pro-show">
+											<div class="pro-img">
+												<a href="javascript:void(0)" title="慕黛兰 羊羔绒毛呢外套女秋冬新款韩版大码宽松双排扣呢子大衣中长款 灰色 M"><img src="http://img16.iblimg.com/mp-175/mp/goods/1716953824_200x200.jpg"/></a>
+											</div>
+											<div class="pro-name">
+												<a href="javascript:void()">慕黛兰 羊羔绒毛呢外套女秋冬新款韩版大码宽松双排扣呢子大衣中长款 灰色 M</a>
+											</div>
+											<div class="pro-money">
+												￥
+												<i>316.0</i>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="pro-show">
+											<div class="pro-img">
+												<a href="javascript:void(0)" title="慕黛兰 羊羔绒毛呢外套女秋冬新款韩版大码宽松双排扣呢子大衣中长款 灰色 M"><img src="http://img16.iblimg.com/mp-175/mp/goods/1716953824_200x200.jpg"/></a>
+											</div>
+											<div class="pro-name">
+												<a href="javascript:void()">慕黛兰 羊羔绒毛呢外套女秋冬新款韩版大码宽松双排扣呢子大衣中长款 灰色 M</a>
+											</div>
+											<div class="pro-money">
+												￥
+												<i>316.0</i>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!--商品介绍-->
+					<div class="proinfo-main">
+						<!--切换顶部悬浮-->
+						<div class="product-tab-fixed">
+						 	<div class="fixed-border">
+						 		<div class="item-message">
+						 			<img src="http://img16.iblimg.com/mp-175/mp/goods/696816524_60x60.jpg"/>
+						 			<div class="text">
+						 				<div class="name">慕黛兰 毛呢外套女短款秋冬新款西装领显瘦百搭气质呢大衣小个子潮 军绿色 2XL</div>
+						 				<div class="price">￥199.00</div>
+						 			</div>
+						 		</div>
+						 		<div class="product-tab">
+						 			<ul class="product-tab" id="product-fix-tab">
+						 				<li class="selects"><a href="javascript:void(0)" class="name name-first">商品介绍</a></li>
+						 				<li class="selects"><a href="javascript:void(0)" class="name">参数及包装</a></li>
+						 				<li class="selects"><a href="javascript:void(0)" class="name">售后服务</a></li>
+						 				<li class="selects"><a href="javascript:void(0)" class="name">评价详情</a></li>
+						 			</ul>
+						 			<span class="app">
+						 				手机购买
+						 				<div class="goapp">
+						 					<span>手机购买</span>
+						 					<em class="call_buy">
+						 						<canvas width="120" height="120"></canvas>
+						 					</em>
+						 				</div>
+						 			</span>
+						 		</div>
+						 		<button type="button" class="btn-buy">加入购物车</button>
+						 	</div>
+						 </div>
+						
+						<div class="product-tab">
+				 			<ul id="proinfo-main-menu">
+				 				<li class="selects"><a href="javascript:void(0)" class="name name-first">商品介绍</a></li>
+				 				<li class="selects"><a href="javascript:void(0)" class="name">参数及包装</a></li>
+				 				<li class="selects"><a href="javascript:void(0)" class="name">售后服务</a></li>
+				 				<li class="selects"><a href="javascript:void(0)" class="name">评价详情</a></li>
+				 			</ul>
+				 			<span class="app app1">
+				 				手机购买
+				 				<div class="goapp">
+				 					<span>手机购买</span>
+				 					<em class="call_buy">
+				 						<canvas width="120" height="120"></canvas>
+				 					</em>
+				 				</div>
+				 			</span>
+				 		</div>
+						
+						<ul class="pro-list">
+							<li class="one">
+								<div class="goods-details-con">
+									<p>
+										<img src="https://img.alicdn.com/imgextra/i2/594931252/TB2petZdtnJ8KJjSszdXXaxuFXa_!!594931252.jpg"/>
+										<img src="https://img.alicdn.com/imgextra/i4/594931252/TB2nJpWdC_I8KJjy0FoXXaFnVXa_!!594931252.jpg"/>
+										<img src="https://img.alicdn.com/imgextra/i4/594931252/TB2cz40dv2H8KJjy1zkXXXr7pXa_!!594931252.jpg"/>
+										<img src="https://img.alicdn.com/imgextra/i1/594931252/TB2XAVIaWLN8KJjSZFvXXXW8VXa_!!594931252.jpg"/>
+										<img src="https://img.alicdn.com/imgextra/i2/594931252/TB26nJNa2jM8KJjSZFNXXbQjFXa_!!594931252.jpg"/>
+										<img src="https://img.alicdn.com/imgextra/i1/594931252/TB25X47dznD8KJjSspbXXbbEXXa_!!594931252.jpg"/>
+										<img src="https://img.alicdn.com/imgextra/i3/594931252/TB2A4dZdv6H8KJjy0FjXXaXepXa_!!594931252.jpg"/>
+										<img src="https://img.alicdn.com/imgextra/i1/594931252/TB2yq0GdtbJ8KJjy1zjXXaqapXa_!!594931252.jpg"/>
+										<img src="https://img.alicdn.com/imgextra/i4/594931252/TB2czF_dwDD8KJjy0FdXXcjvXXa_!!594931252.jpg"/>
+										<img src="https://img.alicdn.com/imgextra/i3/594931252/TB224dKdx6I8KJjSszfXXaZVXXa_!!594931252.jpg"/>
+										<img src="https://img.alicdn.com/imgextra/i2/594931252/TB2ol8pakfb_uJjSsD4XXaqiFXa_!!594931252.jpg"/>
+										<img src="https://img.alicdn.com/imgextra/i4/594931252/TB2f70vakfb_uJkSnfoXXb_epXa_!!594931252.jpg"/>
+										<img src="https://img.alicdn.com/imgextra/i3/594931252/TB2w84GdCYH8KJjSspdXXcRgVXa_!!594931252.jpg"/>
+										<img src="https://img.alicdn.com/imgextra/i4/594931252/TB2WelHdwvD8KJjSsplXXaIEFXa_!!594931252.jpg"/>
+										<img src="https://img.alicdn.com/imgextra/i2/594931252/TB2QmN0dwfH8KJjy1zcXXcTzpXa_!!594931252.jpg"/>
+										<img src="https://img.alicdn.com/imgextra/i1/594931252/TB2BQXWdxrI8KJjy0FpXXb5hVXa_!!594931252.jpg"/>
+										<img src="https://img.alicdn.com/imgextra/i4/594931252/TB2X_0JdDnI8KJjSszbXXb4KFXa_!!594931252.jpg"/>
+										<img src="http://Img.iblimg.com/mp-6/mp/store/2016/12/423236679.png"/>
+									</p>
+									<div class="goods-details-con">
+										<div class="server-detail">
+											<div class="server-title"><strong>售后服务</strong></div>
+											<div class="directions">
+												<div class="sub-title">i百联承诺</div>
+												<div class="detail-con">
+													i百联向您保证所售商品均为正品行货，请放心购买！ 如我们的商品不能让您满意，您可通过“帮助中心→售后服务→《退换货政策》”查询退换货相关规则及流程。
+													<br />特别说明<br />
+													1、因厂家会在没有任何提前通知的情况下更改产品包装、产地或者一些附件，I百联不能确保客户收到的货物与商城图片、产地、附件说明完全一致。只能确保为原厂正货！并且保证与当时市场上同样主流新品一致。若本商城没有及时更新，请大家谅解！
+													<br />
+													2、因拍摄灯光及不同显示器色差等原因造成商品图片与实物有色差，一切以实物为准。
+												</div>
+												<div class="sub-title">价格说明</div>
+												<div class="detail-con">
+													i百联价：商品在i百联平台上，不参加降价让利促销团购等活动时的常规销售价格。
+													<br />
+													参考价：商品展示的参考价，可能是品牌专柜标价、商品吊牌价或由品牌供应商提供的正品零售价（如厂商指导价、建议零售价等）或该商品在i百联平台曾经展示过的销售价；由于地区、时间的差异性和市场行情波动，品牌专柜标价、商品吊牌价、销售商门店曾经展示过的销售价等可能会与您购物时展示的不一致，该价格仅供您参考。
+													<br />
+													折扣：如无特殊说明，折扣指销售商在原价、或参考价（如品牌专柜标价、商品吊牌价、厂商指导价、厂商建议零售价）等某一价格基础上计算出的优惠比例或优惠金额；折扣比例采取四舍五入方法保留一位小数点，如闪购价为3000元，参考价为3400元，折扣展示为8.8折（3000/3400≈0.882）；闪购价为3000元，参考价为3300元，折扣展示为9.1折（3000/3300≈0.909）。如有疑问，您可在购买前联系销售商进行咨询。
+													<br />
+													异常问题：商品促销信息以商品详情页“促销”栏中的信息为准；商品的具体售价以订单结算页价格为准；如您发现活动商品售价或促销信息有异常，建议在购买前联系客服咨询。
+												</div>
+												<div class="directions-detail-line">
+													<i class="i1"></i>
+													正品保证
+													<div class="directions-detail-line-message">i百联保证所售商品均为正品行货，i百联自营商品可开具机打发票或电子发票。</div>
+												</div>
+												<div class="directions-detail-line">
+													<i class="i2"></i>
+													精选品牌
+													<div class="directions-detail-line-message">迄今为止，已有超过20,000多个国内外品牌入驻i百联，涵盖流行百货、潮流服饰、品质家电、大牌美妆、优质家纺、母婴用品、精选食品等多种品类。</div>
+												</div>
+												<div class="directions-detail-line">
+													<i class="i3"></i>
+													多种支付方式
+													<div class="directions-detail-line-message">全站放心买，支付安心用！百联卡、OK卡、微信、支付宝、银联随心付，优惠折上折！</div>
+												</div>
+												<div class="directions-detail-line">
+													<i class="i4"></i>
+													快速配送
+													<div class="directions-detail-line-message">专业的仓储管理系统，全流水线无缝衔接，完善的服务保障体系，全程可视化追踪，确保包裹以最快的方式送到顾客的手中。</div>
+												</div>
+												<div class="directions-detail-line">
+													<i class="i5"></i>
+													金牌客服
+													<div class="directions-detail-line-message">365天客服热线，7*12小时品质服务，7*24小时智能问答，用我们的热诚和坦诚为客户提供个性又贴心的服务，让顾客满意是我们永远不变的宗旨。</div>
+												</div>
+											</div>
+										</div>
+										<div style="width: 100%;height: 20px;background: #fff;"></div>
+									</div>
+								</div>
+							</li>
+							<li class="two">
+								<div class="goods-details-con">
+									<div class="table-block">
+										<div class="parameters"><strong>基本信息</strong></div>
+										<div class="detail-line deta">
+											<div class="detail-title">袖型</div>
+											<div class="detail">常规袖</div>
+										</div>
+										<div class="detail-line">
+											<div class="detail-title">风格</div>
+											<div class="detail">其它风格</div>
+										</div>
+										<div class="detail-line">
+											<div class="detail-title">领型</div>
+											<div class="detail">其它领型</div>
+										</div>
+										<div class="detail-line">
+											<div class="detail-title">面料</div>
+											<div class="detail">其它</div>
+										</div>
+										<div class="detail-line">
+											<div class="detail-title">衣门襟</div>
+											<div class="detail">其它门襟样式</div>
+										</div>
+										<div class="detail-line">
+											<div class="detail-title">版型</div>
+											<div class="detail">修身型</div>
+										</div>
+									</div>
+									<div class="table-block">
+										<div class="parameters"><strong>规格参数</strong></div>
+										<div class="detail-line deta">
+											<div class="detail-title">袖长</div>
+											<div class="detail">长袖</div>
+										</div>
+										<div class="detail-line">
+											<div class="detail-title">衣长</div>
+											<div class="detail">短款	</div>
+										</div>
+									</div>
+									<div class="table-block">
+										<div class="parameters"><strong>产地</strong></div>
+										<div class="detail-line deta">
+											<div class="detail-title">产地</div>
+											<div class="detail">中国</div>
+										</div>
+										<div class="detail-line">
+											<div class="detail-title">进口/国产</div>
+											<div class="detail">国产	</div>
+										</div>
+									</div>
+									<!--售后服务-->
+									<div class="goods-details-con">
+										<div class="server-detail">
+											<div class="server-title"><strong>售后服务</strong></div>
+											<div class="directions">
+												<div class="sub-title">i百联承诺</div>
+												<div class="detail-con">
+													i百联向您保证所售商品均为正品行货，请放心购买！ 如我们的商品不能让您满意，您可通过“帮助中心→售后服务→《退换货政策》”查询退换货相关规则及流程。
+													<br />特别说明<br />
+													1、因厂家会在没有任何提前通知的情况下更改产品包装、产地或者一些附件，I百联不能确保客户收到的货物与商城图片、产地、附件说明完全一致。只能确保为原厂正货！并且保证与当时市场上同样主流新品一致。若本商城没有及时更新，请大家谅解！
+													<br />
+													2、因拍摄灯光及不同显示器色差等原因造成商品图片与实物有色差，一切以实物为准。
+												</div>
+												<div class="sub-title">价格说明</div>
+												<div class="detail-con">
+													i百联价：商品在i百联平台上，不参加降价让利促销团购等活动时的常规销售价格。
+													<br />
+													参考价：商品展示的参考价，可能是品牌专柜标价、商品吊牌价或由品牌供应商提供的正品零售价（如厂商指导价、建议零售价等）或该商品在i百联平台曾经展示过的销售价；由于地区、时间的差异性和市场行情波动，品牌专柜标价、商品吊牌价、销售商门店曾经展示过的销售价等可能会与您购物时展示的不一致，该价格仅供您参考。
+													<br />
+													折扣：如无特殊说明，折扣指销售商在原价、或参考价（如品牌专柜标价、商品吊牌价、厂商指导价、厂商建议零售价）等某一价格基础上计算出的优惠比例或优惠金额；折扣比例采取四舍五入方法保留一位小数点，如闪购价为3000元，参考价为3400元，折扣展示为8.8折（3000/3400≈0.882）；闪购价为3000元，参考价为3300元，折扣展示为9.1折（3000/3300≈0.909）。如有疑问，您可在购买前联系销售商进行咨询。
+													<br />
+													异常问题：商品促销信息以商品详情页“促销”栏中的信息为准；商品的具体售价以订单结算页价格为准；如您发现活动商品售价或促销信息有异常，建议在购买前联系客服咨询。
+												</div>
+												<div class="directions-detail-line">
+													<i class="i1"></i>
+													正品保证
+													<div class="directions-detail-line-message">i百联保证所售商品均为正品行货，i百联自营商品可开具机打发票或电子发票。</div>
+												</div>
+												<div class="directions-detail-line">
+													<i class="i2"></i>
+													精选品牌
+													<div class="directions-detail-line-message">迄今为止，已有超过20,000多个国内外品牌入驻i百联，涵盖流行百货、潮流服饰、品质家电、大牌美妆、优质家纺、母婴用品、精选食品等多种品类。</div>
+												</div>
+												<div class="directions-detail-line">
+													<i class="i3"></i>
+													多种支付方式
+													<div class="directions-detail-line-message">全站放心买，支付安心用！百联卡、OK卡、微信、支付宝、银联随心付，优惠折上折！</div>
+												</div>
+												<div class="directions-detail-line">
+													<i class="i4"></i>
+													快速配送
+													<div class="directions-detail-line-message">专业的仓储管理系统，全流水线无缝衔接，完善的服务保障体系，全程可视化追踪，确保包裹以最快的方式送到顾客的手中。</div>
+												</div>
+												<div class="directions-detail-line">
+													<i class="i5"></i>
+													金牌客服
+													<div class="directions-detail-line-message">365天客服热线，7*12小时品质服务，7*24小时智能问答，用我们的热诚和坦诚为客户提供个性又贴心的服务，让顾客满意是我们永远不变的宗旨。</div>
+												</div>
+											</div>
+										</div>
+										<div style="width: 100%;height: 20px;background: #fff;"></div>
+									</div>
+								</div>
+							</li>
+							<li class="three">
+								<!--售后服务-->
+								<div class="goods-details-con">
+									<div class="server-detail">
+										<div class="server-title"><strong>售后服务</strong></div>
+										<div class="directions">
+											<div class="sub-title">i百联承诺</div>
+											<div class="detail-con">
+												i百联向您保证所售商品均为正品行货，请放心购买！ 如我们的商品不能让您满意，您可通过“帮助中心→售后服务→《退换货政策》”查询退换货相关规则及流程。
+												<br />特别说明<br />
+												1、因厂家会在没有任何提前通知的情况下更改产品包装、产地或者一些附件，I百联不能确保客户收到的货物与商城图片、产地、附件说明完全一致。只能确保为原厂正货！并且保证与当时市场上同样主流新品一致。若本商城没有及时更新，请大家谅解！
+												<br />
+												2、因拍摄灯光及不同显示器色差等原因造成商品图片与实物有色差，一切以实物为准。
+											</div>
+											<div class="sub-title">价格说明</div>
+											<div class="detail-con">
+												i百联价：商品在i百联平台上，不参加降价让利促销团购等活动时的常规销售价格。
+												<br />
+												参考价：商品展示的参考价，可能是品牌专柜标价、商品吊牌价或由品牌供应商提供的正品零售价（如厂商指导价、建议零售价等）或该商品在i百联平台曾经展示过的销售价；由于地区、时间的差异性和市场行情波动，品牌专柜标价、商品吊牌价、销售商门店曾经展示过的销售价等可能会与您购物时展示的不一致，该价格仅供您参考。
+												<br />
+												折扣：如无特殊说明，折扣指销售商在原价、或参考价（如品牌专柜标价、商品吊牌价、厂商指导价、厂商建议零售价）等某一价格基础上计算出的优惠比例或优惠金额；折扣比例采取四舍五入方法保留一位小数点，如闪购价为3000元，参考价为3400元，折扣展示为8.8折（3000/3400≈0.882）；闪购价为3000元，参考价为3300元，折扣展示为9.1折（3000/3300≈0.909）。如有疑问，您可在购买前联系销售商进行咨询。
+												<br />
+												异常问题：商品促销信息以商品详情页“促销”栏中的信息为准；商品的具体售价以订单结算页价格为准；如您发现活动商品售价或促销信息有异常，建议在购买前联系客服咨询。
+											</div>
+											<div class="directions-detail-line">
+												<i class="i1"></i>
+												正品保证
+												<div class="directions-detail-line-message">i百联保证所售商品均为正品行货，i百联自营商品可开具机打发票或电子发票。</div>
+											</div>
+											<div class="directions-detail-line">
+												<i class="i2"></i>
+												精选品牌
+												<div class="directions-detail-line-message">迄今为止，已有超过20,000多个国内外品牌入驻i百联，涵盖流行百货、潮流服饰、品质家电、大牌美妆、优质家纺、母婴用品、精选食品等多种品类。</div>
+											</div>
+											<div class="directions-detail-line">
+												<i class="i3"></i>
+												多种支付方式
+												<div class="directions-detail-line-message">全站放心买，支付安心用！百联卡、OK卡、微信、支付宝、银联随心付，优惠折上折！</div>
+											</div>
+											<div class="directions-detail-line">
+												<i class="i4"></i>
+												快速配送
+												<div class="directions-detail-line-message">专业的仓储管理系统，全流水线无缝衔接，完善的服务保障体系，全程可视化追踪，确保包裹以最快的方式送到顾客的手中。</div>
+											</div>
+											<div class="directions-detail-line">
+												<i class="i5"></i>
+												金牌客服
+												<div class="directions-detail-line-message">365天客服热线，7*12小时品质服务，7*24小时智能问答，用我们的热诚和坦诚为客户提供个性又贴心的服务，让顾客满意是我们永远不变的宗旨。</div>
+											</div>
+										</div>
+								</div>
+								<div style="width: 100%;height: 20px;background: #fff;"></div>
+							</li>
+							<li class="four">
+								<div class="reviewed-detail">
+									<div class="reviewed-info">
+										<div class="reviewed-fraction">
+											<div class="reviewed-font-none">暂无评价</div>
+										</div>
+										<div class="reviewed-info-middle">
+											<div class="reviewed-info-detail">
+												<div class="none-info">买家对此商品暂时还没有印象哦~</div>
+											</div>
+										</div>
+										<div class="reviewed-btn-line">
+											<button type="button" class="btn">我要评价</button>
+											<div class="btn-rule">
+												<a href="javascript:void(0)">优质评价攻略</a>
+												|
+												<a href="javascript:void(0)">评论提交规则</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>				
+			</div>
+		</div>
+		
+		<!--底部-->
+		<div id="footer">
+			
+		</div>
+		<!--右边栏购物车-->
+		<div id="buy">
+			
+		</div>		
+	</body>
+	<script src="../js/magnifier.js"></script>
+</html>

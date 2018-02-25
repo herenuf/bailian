@@ -1,0 +1,220 @@
+body{
+	background: #f9f9f8;
+}
+#top-wrapper{
+	height: 111px;
+	background: #f9f9f8 ;
+}
+.top{
+	width:952px;
+	height: 111px;
+	background: #F9F9F8;
+	margin: 0 auto;
+}
+.top .logo{
+	width: 159px;
+	height: 57px;
+	margin-top: 30px;
+	float: left;
+}
+.top .reg{
+	width: 127px;
+	height: 52px;
+	line-height: 52px;
+	float: left;
+	margin-top: 30px;
+	border-left: 1px solid #dddddd;
+}
+.top .reg a{
+	color: #000000;
+	font-size: 24px;
+	margin-left: 30px;
+}
+#tab-wrapper{
+	height: 634px;
+}
+.tab{
+	width: 952px;
+	height: 634px;
+	margin: 0 auto;
+	border:1px solid  #e1dfda;
+	background: #ffffff;
+}
+.tab .tab-top{
+	width: 952px;
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #e1dfda; 
+}
+.tab .tab-top .tab-top-left{
+	width: 205px;
+	height: 50px;
+	float:left;
+	text-align: center;
+}
+.tab .tab-top  .tab-top-left a{
+	font-size: 15px;
+	color: #ff002a;
+}
+.tab .tab-top .tab-top-right{
+	width: 165px;
+	height: 50px;
+	float:right;
+	text-align: center;
+	color: #63625d;
+	font-size:12px ;
+}
+.tab .tab-top  .tab-top-right a{
+	font-size: 12px;
+	color: #0088cc;
+}
+.tab .tab-center{
+	width: 747px;
+	height: 458px;
+	margin-left: 205px;
+	margin-top:50px;
+	/*background: #1AB8F3;*/
+}
+.tab .tab-center .tab-data{
+	width: 747px;
+	height: 56px;
+  	/*background: #32CD32;*/
+  	padding: 9px 0;
+  	box-sizing:border-box ;
+  	font-style: normal; 
+}
+.tab .tab-center .name{
+	width: 128px;
+	height: 36px;
+	line-height: 36px;
+	float: left;
+	text-align: right;
+	color: #333333;
+}
+.tab .tab-center .name i{
+	margin-right: 6px;
+	color: red;
+}
+.tab .tab-center .input{
+	width: 300px; 
+	height: 36px;
+	float: left;
+	border: 1px solid #CCCCCC;
+}
+.index1{
+	background: #fff url(../img/images/register.png) no-repeat 10px 10px;
+}
+.index2{
+	background: #fff url(../img/images/register.png) no-repeat 10px -52px;
+}
+/*.index3{
+	background: #fff url(../images/register.png) no-repeat 10px -52px;
+}*/
+.index3{
+	background: #fff url(../img/images/register.png) no-repeat 10px -180px;
+}
+.index4{
+	background: #fff url(../img/images/register.png) no-repeat 10px -287px;
+}
+.tab .tab-center input{
+	width: 280px;
+	height: 33px;
+	margin-top: 1px;
+	/*margin-left: 30px;*/ 
+	text-indent: 30px;
+	border: none;
+}
+.tab .tab-center .prompt img{
+	width: 16px;
+	height: 16px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.tab .tab-center .prompt li{
+	height: 36px;
+	margin-left: 35px;
+	line-height: 36px;
+}
+.tab .tab-center .prompt span{
+	font-size:13px ;
+	font-style: normal; 
+}
+#loginQr{
+	width:200px;
+	border: 1px solid #CCCCCC;
+}
+#loginQrbox{
+	/*width:200px;*/
+	border: none;
+}
+#qr{
+	width: 90px;
+	height: 36px;
+	text-align: center;
+	text-indent:0 ;
+}
+
+
+.tab-ckb{
+	width: 747px;
+	height: 27px;
+	line-height: 27px;
+	font-style: normal;
+}
+ #loginCkb{
+	width: 16px;
+	height: 16px;
+	margin-left: 128px;
+	margin-top: 5px;
+}
+.tab-ckb span{
+	color: #666666;
+	font-size: 11px;
+}
+.tab-ckb a{
+	color: #0088ca;
+	font-size: 11px;
+}
+/*.reg-btn{
+	width: 747px;
+	height: 39px;
+}*/
+#btn{
+	width: 300px;
+	height: 36px;
+	margin-left:128px;
+	margin-top: 10px;
+	background: #e6133c;
+	border: 0;
+	color: #fff;
+	font-size: 16px;
+	outline: none;
+	cursor: pointer;
+} 
+
+/*尾部*/
+.footer{
+	width: 952px;
+	height: 140px;
+	margin: 0 auto;
+	font-style: normal;
+	text-align: center;
+}
+.sub-menu{
+	width: 952px;
+	height: 24px;
+	margin-top: 32px;
+}
+.sub-menu a{
+	color: #000;
+	margin:0 10px;
+    font-size:12px ;
+}
+.footer .first{
+	margin: 10px 0 20px;
+}
+.footer p{ 
+	color: #CCCCCC;
+	margin: 5px 0;
+    font-size:12px ;
+}

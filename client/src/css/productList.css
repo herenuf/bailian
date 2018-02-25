@@ -1,0 +1,62 @@
+#nav { width: 100%; height: 35px; background: #333; }
+#nav .nav-cont { width: 1190px; margin: 0 auto; height: 35px; }
+#nav .nav-cont ul li a { float: left; line-height: 35px; font-size: 14px; padding: 0 25px; color: #fff; }
+#nav .nav-cont ul li a:hover { background: #e6133c; }
+
+.path-icon { float: left; padding-left: 15px; background: url(//img.iblimg.com/respc-1/resources/v4.0/css/i/left-icon.png) no-repeat left; padding-right: 10px; font-size: 12px !important; }
+
+.show1 { height: 22px; overflow: hidden; }
+
+.filter-right-item { margin-right: 28px; max-width: 88px; height: 22px; line-height: 22px; float: left; display: inline-block; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.filter-right-item:hover a { text-decoration: underline; color: #d5af82; }
+
+#results { width: 100%; height: auto; }
+#results .results-wrap { width: 1190px; margin: 0 auto; overflow: hidden; margin-bottom: 20px; }
+#results .results-wrap .path { font-family: 'Microsoft YaHei'; position: relative; height: 56px; z-index: 195; overflow: hidden; }
+#results .results-wrap .path .path-left { height: 26px; line-height: 26px; padding: 15px 0; float: left; width: 1050px; position: relative; }
+#results .results-wrap .path .path-left .pathclip { clip: rect(0, auto, 1050px, 0); position: absolute; width: 100%; left: 0; height: 26px; }
+#results .results-wrap .path .path-left .pathclip .path-pa { position: absolute; left: 0; white-space: nowrap; height: 26px; font-size: 0; }
+#results .results-wrap .path .path-left .pathclip .path-pa .path-font { float: left; color: #333; margin: 0; padding: 0; background: 0 0; }
+#results .results-wrap .path .path-left .pathclip .path-pa .path-input { height: 22px; padding: 1px; border: 1px solid #ddd; padding-left: 5px; width: 150px; }
+#results .results-wrap .path .path-left .pathclip .path-pa .path-input input { float: left; height: 22px; border: 0; width: 125px; font-family: 'Microsoft YaHei'; vertical-align: middle; outline: none; font-size: 12px; }
+#results .results-wrap .path .path-left .pathclip .path-pa .path-input button { height: 22px; width: 22px; border: 0; background: url(//img.iblimg.com/respc-1/resources/v4.0/css/i/select-button.png) no-repeat center center; cursor: pointer; float: right; }
+#results .results-wrap .path .path-right { float: right; color: #666; line-height: 56px; background: #FFF; text-align: right; width: 140px; width: 140px; position: relative; z-index: 3; font-size: 12px; }
+#results .results-wrap .filter { border-top: 2px solid #987144; font-family: 'Microsoft YaHei'; float: left; display: inline; overflow: hidden; }
+#results .results-wrap .filter .filter-item { background: #f8f8f8; border-bottom: 1px solid #ddd; float: left; display: inline; }
+#results .results-wrap .filter .filter-item .filter-left { float: left; display: inline; width: 90px; margin: 0 20px; color: #999; text-align: right; line-height: 34px; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; font-size: 12px; }
+#results .results-wrap .filter .filter-item .filter-right { width: 1040px; float: left; display: inline; background: #FFF; padding: 6px 0; padding-left: 20px; line-height: 22px; min-height: 22px; color: #333; }
+#results .results-wrap .filter .filter-item .filter-right .fr-button { float: right; }
+#results .results-wrap .filter .filter-item .filter-right .fr-button .fr-button-a { float: left; height: 22px; width: 56px; line-height: 22px; background: #eee; color: #666; text-align: center; cursor: pointer; font-size: 12px; }
+#results .results-wrap .filter .filter-item .filter-right .wid-list { width: 925px; }
+#results .results-wrap .filter .filter-item .filter-right .wid-list .shshow { max-height: 116px; overflow: hidden; position: relative; }
+#results .results-wrap .filter .filter-item .filter-right .wid-list .shshow .list-class a { float: left; position: relative; width: 108px; height: 48px; border: 2px solid #eee; overflow: hidden; text-align: center; line-height: 48px; color: #999; margin: 4px 5px 4px 0; display: inline; cursor: pointer; white-space: nowrap; text-overflow: ellipsis; }
+#results .results-wrap .filter .filter-item .filter-right .wid-list .shshow .list-class a:hover { border: 2px solid #d5af82; opacity: 0.9; }
+#results .results-wrap .filter .filter-item .filter-right .wid-list .shshow .list-class a img { height: 48px; }
+#results .results-wrap .sequence-left { height: 36px; width: 100%; float: left; overflow: hidden; margin-top: 20px; font-family: 'Microsoft YaHei'; }
+#results .results-wrap .sequence-left .listclass { margin-left: 1px; }
+#results .results-wrap .sequence-left .listclass li { float: left; margin-right: 10px; position: relative; }
+#results .results-wrap .sequence-left .listclass li a { border: 1px solid #ccc; display: block; padding: 0 15px; height: 34px; line-height: 34px; background: #f8f8f8; color: #666; }
+#results .results-wrap .sequence-left .listclass li a:hover { border: 1px solid #c01133; color: #c01133; }
+#results .results-wrap .sequence-left .listclass li a span { float: left; }
+#results .results-wrap .sequence-left .listclass li a i { float: left; margin-left: 7px; display: inline-block; width: 7px; height: 34px; background-repeat: no-repeat; }
+#results .results-wrap .sequence-left .listclass .on a { background: #c01133; border: 1px solid #c01133; color: #FFF; }
+#results .results-wrap .sequence-left .listclass .on a:hover { color: #fff; }
+#results .results-wrap .sequence-left .listclass .upanddown i { background-image: url(//img.iblimg.com/respc-1/resources/v4.0/css/i/icon-xiala.png); background-position: 0 center; }
+#results .box-list { width: 1190px; margin: 0 auto; height: auto; }
+#results .box-list ul { height: 320px; margin-bottom: 10px; }
+#results .box-list ul li { float: left; height: 320px; margin: 0 5px; position: relative; width: 226px; background: #fff; margin-bottom: 10px;}
+#results .box-list ul li .proshow { height: 318px; width: 228px; border: 1px solid #e4e4e4; background: #fff; transition: all 0.5s; }
+#results .box-list ul li .proshow:hover { border: 1px solid red; }
+#results .box-list ul li .proshow .pro-img { height: 220px; width: 220px; padding: 4px; background: url(//img.iblimg.com/respc-1/resources/v4.2/css/i/loading77x77.gif) no-repeat center center; }
+#results .box-list ul li .proshow .pro-img a { height: 220px; width: 220px; display: inline-block; }
+#results .box-list ul li .proshow .pro-img a img { height: 220px; width: 220px; }
+#results .box-list ul li .proshow .pro-name { padding: 0 11px; margin-top: 5px; color: #333; line-height: 21px; height: 42px; overflow: hidden; }
+#results .box-list ul li .proshow .pro-name a { color: #666; font-size: 14px; height: 50px; display: inline-block; }
+#results .box-list ul li .proshow .pro-name a:hover { text-decoration: underline; }
+#results .box-list ul li .proshow .pro-money { padding: 0 11px; height: 26px; margin-top: 5px; position: relative; }
+#results .box-list ul li .proshow .pro-money .money-fl { color: #ff6f6f; font-family: Verdana,Geneva,sans-serif; font-size: 12px; line-height: 26px; }
+#results .box-list ul li .proshow .pro-money .money-fl span { font-size: 16px; }
+#results .box-list ul li .proshow .pro-money .money-fl a { float: right; padding: 0 10px 0 25px; height: 20px; margin-top: 3px; line-height: 18px; background: url(//img.iblimg.com/respc-1/resources/v4.2/css/i/guess_ic1.jpg) no-repeat 7px 4px; border: 1px solid #eee; color: #999; border-radius: 11px; }
+#results .box-list ul li .proshow .pro-money .money-fl a:hover { background-position: 7px -27px; color: #FF6F6F; }
+
+/*# sourceMappingURL=productList.css.map */

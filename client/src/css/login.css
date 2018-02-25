@@ -1,0 +1,233 @@
+#top-wrapper{
+	height: 111px;
+	background: #f9f9f8 ;
+}
+.top{
+	width:952px;
+	height: 111px;
+	background: #F9F9F8;
+	margin: 0 auto;
+}
+.top .logo{
+	width: 159px;
+	height: 57px;
+	margin-top: 30px;
+	float: left;
+}
+.top .reg{
+	width: 127px;
+	height: 52px;
+	line-height: 52px;
+	float: left;
+	margin-top: 30px;
+	border-left: 1px solid #dddddd;
+}
+.top .reg a{
+	color: #000000;
+	font-size: 24px;
+	margin-left: 30px;
+}
+/*网站主体*/
+#main-wrapper{
+	height: 538px;
+	background: url(../img/images/login-body.jpg) no-repeat;
+}
+.main{
+	width: 500px;
+	height: 483px;
+	margin: 0 auto;
+	background:#fff;
+	border:6px solid #e2e2e2;
+}
+.main-center{
+	width: 300px;
+	height: 471px;
+	margin: 0 auto;
+}
+.main-top{
+	width: 300px;
+	height: 50px;
+	margin-top: 50px;
+}
+.main-top .main-top-left{
+	width: 72px;
+	height: 45px;
+	line-height: 45px;
+	float:left;
+}
+ .main-top .main-top-left a{
+	color: #000000;
+	font-size: 18px;
+}
+.main-top .main-top-right{
+	width: 60px;
+	height: 45px;
+	line-height: 45px;
+	float:right;
+}
+.main-top .main-top-right a{ 
+	color: #007AFF;
+	font-size: 12px;
+}
+
+.prompt-show{
+	width: 298px;
+	height: 24px;
+	line-height: 24px;
+	background: #fdfaf5;
+	border: 1px solid #E6133C;
+	opacity: 0;
+}
+.prompt-show img{
+	width: 15px;
+	height: 15px;
+	vertical-align: middle;
+	margin: 0 5px;
+} 
+
+.input{
+	width: 298px; 
+	height: 36px;
+	float: left;
+	margin: 10px 0;
+	border: 1px solid #CCCCCC;
+}
+.index1{
+	background: #fff url(../img/images/userpic.png) no-repeat 10px center;
+}
+.index2{ 
+	background: #fff url(../img/images/passwordpic.png) no-repeat 10px center;
+}
+.tab-data input{
+	width: 278px;
+	height: 34px;
+	text-indent: 34px;
+	border: none;
+}
+.fpwd{
+	width: 66px;
+	height: 30px;
+	line-height: 30px;
+	float: right;
+}
+.fpwd a{
+	font-size:12px;
+	color: #666666;
+}
+#btn{
+	width: 300px;
+	height: 36px;
+	margin-top: 10px;
+	background: #e6133c;
+	border: 0;
+	color: #fff;
+	font-size: 16px;
+	cursor: pointer;
+	outline: none;
+} 
+.blvip{
+	width: 150px;
+	height: 40px;
+	line-height: 40px;
+	text-indent: 30px;
+	float: right;
+	background:url(../img/images/right-icon.png) no-repeat 10px center;
+}
+.blvip a{
+	font-size:12px;
+	color: #666666;
+}
+.other{
+	width:300px;
+	height: 49px;
+	float: left;
+	text-align: center;
+}
+.other-t{
+	width:300px;
+	height: 25px;
+	border-bottom: 1px solid #CCCCCC;
+	float: left;
+}
+.other span{
+	width: 126px;
+	height: 22px;
+	line-height: 22px;
+	display: block;
+	color: #CCCCCC;
+	background: #fff;
+	margin-top: 14px;
+	margin-left: 86px;
+	font-size: 12px;
+}
+.login-logo{
+	width:300px;
+	height: 62px;
+	margin-top: 12px;
+	float: left;
+}
+.login-logo a{
+	display: block;
+	width: 66px;
+	height: 22px;
+	margin-left: 30px; 
+	margin-bottom: 10px; 
+	float: left;
+} 
+.login-logo a:nth-of-type(1){
+	background: url(../img/images/login-cion-1.png) no-repeat center -22px;
+}
+.login-logo a:nth-of-type(1):hover{
+	background: url(../img/images/login-cion-1.png) no-repeat;
+}
+.login-logo a:nth-of-type(2){
+	background: url(../img/images/login-cion-2.png) no-repeat center -22px;
+}
+.login-logo a:nth-of-type(2):hover{
+	background: url(../img/images/login-cion-2.png) no-repeat;
+}
+.login-logo a:nth-of-type(3){
+	background: url(../img/images/login-cion-3.png) no-repeat center -22px;
+}
+.login-logo a:nth-of-type(3):hover{
+	background: url(../img/images/login-cion-3.png) no-repeat;
+}
+.login-logo a:nth-of-type(4){
+	background: url(../img/images/login-cion-4.png) no-repeat center -22px;
+}
+.login-logo a:nth-of-type(4):hover{
+	background: url(../img/images/login-cion-4.png) no-repeat;
+}
+.login-logo a:nth-of-type(5){
+	background: url(../img/images/login-cion-5.png) no-repeat center -22px;
+}
+.login-logo a:nth-of-type(5):hover{
+	background: url(../img/images/login-cion-5.png) no-repeat; 
+}
+
+/*尾部*/
+.footer{
+	width: 952px;
+	height: 140px;
+	margin: 0 auto;
+	font-style: normal;
+	text-align: center;
+}
+.sub-menu{
+	width: 952px;
+	height: 24px;
+	margin-top: 32px;
+}
+.sub-menu a{
+	color: #000;
+	margin:0 10px;
+    font-size:12px ;
+}
+.footer .first{
+	margin: 10px 0 20px;
+}
+.footer p{ 
+	color: #CCCCCC;
+	margin: 5px 0;
+    font-size:12px ;
+}
